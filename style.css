@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #8181c042 ;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', 'Work Sans';
+}
+
+#root, .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(77, 70, 70);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 9999999999999px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+
+.styleUl {
+    list-style: none;
+}
+
+
+.error {
+    color: red;
+}
